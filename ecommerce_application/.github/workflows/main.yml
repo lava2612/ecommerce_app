@@ -1,4 +1,4 @@
-ame: Flutter CI
+name: Flutter CI
 
 on:
   push:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          submodules: 'false'  # Disable submodule fetching
 
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
@@ -19,7 +21,7 @@ jobs:
           flutter-version: '3.24.4'  # You can specify a different Flutter version here
 
       - name: Navigate to Project Directory
-        run: ecommerce_application/
+        run: cd ecommerce_application  # Navigate to the project directory
 
       - name: Install dependencies
         run: flutter pub get
