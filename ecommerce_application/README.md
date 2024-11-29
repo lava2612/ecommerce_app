@@ -1,6 +1,6 @@
 # ecommerce_application
 
-A new Flutter project to demonstrate the online ecart.
+A new Flutter project to demonstrate the online ecart. This helps for good interaction between distributors and consumers for products.
 
 ## Getting Started
 
