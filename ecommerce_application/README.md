@@ -4,7 +4,7 @@ A new Flutter project to demonstrate the online ecart. This helps for good inter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.We have used jenkins and selenium for automated testing.
+This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
